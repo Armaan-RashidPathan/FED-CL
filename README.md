@@ -113,7 +113,7 @@ Add attack simulations (membership inference, backdoors).
 
 ## Contributors
 - **Armaan Rashid Pathan** (@Armaan-RashidPathan) – Co-developer  
-- **Drax929** (@Drax929) – Co-developer  
+- **Pratyush Lenka** (@Drax929) – Co-developer  
 
 
 📚 References
