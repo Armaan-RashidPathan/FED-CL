@@ -28,6 +28,34 @@ This notebook implements a **research prototype** of PrivCL, starting with feder
 
 ---
 
+## Datasets
+
+This project evaluates the PrivCL framework across **three diverse data modalities**—vision, graphs, and time-series—to demonstrate generalization under heterogeneous federated environments.
+
+### **1. MNIST (Image Dataset)**
+A benchmark handwritten digit dataset consisting of 70,000 grayscale images (28×28).  
+Used to evaluate image-based federated contrastive learning with augmentations such as:
+- random cropping  
+- rotation  
+- normalization  
+
+### **2. Cora (Graph Dataset)**
+A widely used citation network dataset containing 2,708 scientific publications classified into 7 categories.  
+Each node represents a document, and edges represent citations.  
+Used for evaluating graph representation learning with augmentations such as:
+- edge dropout  
+- feature masking  
+
+### **3. ECG200 (Time-Series Dataset)**
+A medical time-series dataset containing 200 ECG signals classified into two classes.  
+Used to test sequential representation learning under federated settings with augmentations such as:
+- jittering  
+- scaling  
+- slicing  
+
+These datasets collectively allow PrivCL to be evaluated on image, graph, and sequential modalities, reflecting real-world heterogeneous federated learning scenarios.
+
+
 ## ⚙️ Key Features
 - **Federated Contrastive Learning**
   - SimCLR-style NT-Xent loss.  
